@@ -1,0 +1,8 @@
+bm25s==0.3.13
+FlagEmbedding==1.4.2
+numpy
+pandas
+pyarrow
+rank-bm25
+torch
+tqdm
