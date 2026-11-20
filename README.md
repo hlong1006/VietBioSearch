@@ -1,6 +1,8 @@
-# Stage-3-guru-R2AI
+# VietBioSearch
 
-**ViBioMIR PA5** là pipeline truy xuất tài liệu và đoạn văn y sinh cho truy vấn tiếng Việt, tiếng Anh và tiếng Trung. Pipeline kết hợp tìm kiếm từ khóa BM25 với embedding BGE-M3, xếp hạng lại tài liệu, hợp nhất thứ hạng bằng RRF rồi chọn các đoạn liên quan để tạo `submission.zip`.
+**VietBioSearch** là dự án cá nhân về truy xuất tài liệu và đoạn văn y sinh đa ngôn ngữ, hỗ trợ truy vấn tiếng Việt, tiếng Anh và tiếng Trung. Hệ thống kết hợp tìm kiếm từ khóa BM25 với embedding BGE-M3, xếp hạng lại tài liệu, hợp nhất thứ hạng bằng RRF rồi chọn các đoạn liên quan.
+
+Dự án phát triển từ pipeline ViBioMIR PA5 và xuất kết quả dưới dạng `submission.zip` tương thích với PA5.
 
 [Dữ liệu crawl trên Google Drive](https://drive.google.com/drive/u/0/folders/1QsbxgllgQ9zMk68ucujwpuEm8JYXGY8d) · [Notebook Kaggle](pa5-kaggle.ipynb) · [Tài liệu kỹ thuật](docs/rag-pipeline.md)
 

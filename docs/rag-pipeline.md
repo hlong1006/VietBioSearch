@@ -1,11 +1,11 @@
-# Chạy pipeline ViBioMIR PA5
+# Chạy pipeline VietBioSearch
 
 Pipeline lấy câu truy vấn tiếng Việt, Anh và Trung, tìm tài liệu bằng BM25 và BGE-M3, kết hợp thứ hạng bằng RRF, rồi chọn các đoạn liên quan để xuất submission. Các tham số xếp hạng và định dạng đầu ra được chuyển từ notebook PA5 v2.
 
 ## Cấu trúc
 
 ~~~text
-ViBioMIR/
+VietBioSearch/
 ├── src/
 │   ├── __main__.py           # Điểm chạy python -m src
 │   ├── cli.py                # Tham số dòng lệnh và đường dẫn

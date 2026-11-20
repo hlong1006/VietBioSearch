@@ -22,7 +22,7 @@ def _discover(root, pattern, *, directory=False):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description='Run the ViBioMIR PA5 retrieval pipeline.')
+    parser = argparse.ArgumentParser(description='Run the VietBioSearch retrieval pipeline.')
     parser.add_argument('--input-root', type=Path, help='Root to search for corpus, queries and state')
     parser.add_argument('--corpus-dir', type=Path, help='Directory containing the corpus Parquet shards')
     parser.add_argument('--queries-file', type=Path, help='Expanded multilingual queries in JSON')

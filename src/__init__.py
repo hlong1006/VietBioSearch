@@ -1,1 +1,1 @@
-"""ViBioMIR PA5 multilingual retrieval pipeline."""
+"""VietBioSearch multilingual biomedical retrieval pipeline."""
